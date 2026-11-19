@@ -12,7 +12,10 @@ Shows official warnings from the **NINA** integration (German federal warning ap
 
 ## Installation
 
-**HACS:** HACS → ⋮ → *Custom repositories* → add this repository with type *Dashboard* → install → reload the browser.
+**HACS (recommended):** open HACS, search for **NINA Warning Card**, install it and reload the browser.
+
+If it does not show up yet: HACS → ⋮ → *Custom repositories* → add this repository with type *Dashboard* → install → reload the browser.
+
 **Manual:** copy `nina-warning-card.js` to `config/www/` and add `/local/nina-warning-card.js` as a JavaScript module resource.
 
 Set up the [NINA integration](https://www.home-assistant.io/integrations/nina/) for each place first.
